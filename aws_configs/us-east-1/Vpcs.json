@@ -1,0 +1,39 @@
+{
+ "Vpcs": [
+  {
+   "CidrBlock": "10.0.0.0/16",
+   "CidrBlockAssociationSet": [
+    {
+     "AssociationId": "vpc-cidr-assoc-08cf80fe43e89ba9f",
+     "CidrBlock": "10.0.0.0/16",
+     "CidrBlockState": {
+      "State": "associated"
+     }
+    }
+   ],
+   "DhcpOptionsId": "dopt-5e99d124",
+   "InstanceTenancy": "default",
+   "Ipv6CidrBlockAssociationSet": [
+    {
+     "AssociationId": "vpc-cidr-assoc-04435c9a98e002d9a",
+     "Ipv6CidrBlock": "2600:1f18:6089:c800::/56",
+     "Ipv6CidrBlockState": {
+      "State": "associated"
+     },
+     "Ipv6Pool": "Amazon",
+     "NetworkBorderGroup": "us-east-1"
+    }
+   ],
+   "IsDefault": false,
+   "OwnerId": "133950710413",
+   "State": "available",
+   "Tags": [
+    {
+     "Key": "Name",
+     "Value": "my-vpc-01"
+    }
+   ],
+   "VpcId": "vpc-0a1ee4235a7f05f3f"
+  }
+ ]
+}
